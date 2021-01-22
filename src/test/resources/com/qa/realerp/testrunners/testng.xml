@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RealERPSuite" thread-count="2">
+
+<listeners>
+	<listener class-name="com.qa.realerp.listeners.ExtentReportListener" />
+	<listener class-name="com.qa.realerp.listeners.TesultsListener" />
+</listeners>
+<test thread-count="1" name="RealERPLoginPageTest" preserve-order="true">
+<classes>
+	  <class name="com.qa.realerp.tests.LoginPageTest"/>
+</classes>
+</test> <!-- Test -->
+<test thread-count="1" name="RealERPHomePageTest" preserve-order="true">
+<classes>
+	  <class name="com.qa.realerp.tests.HomePageTest"/>
+</classes>
+</test> <!-- Test --> 
+</suite> <!-- Suite -->

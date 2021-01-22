@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [RealERPSuite]">
+  <listeners>
+    <listener class-name="com.qa.realerp.listeners.ExtentReportListener"/>
+    <listener class-name="com.qa.realerp.listeners.TesultsListener"/>
+  </listeners>
+  <test thread-count="2" name="RealERPLoginPageTest(failed)">
+    <classes>
+      <class name="com.qa.realerp.tests.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyForgotPasswordLinkTest"/>
+          <include name="tearDown"/>
+          <include name="verifyPageTitleTest"/>
+        </methods>
+      </class> <!-- com.qa.realerp.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- RealERPLoginPageTest(failed) -->
+</suite> <!-- Failed suite [RealERPSuite] -->

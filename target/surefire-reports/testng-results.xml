@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="39806" started-at="2021-01-22T06:19:28Z" finished-at="2021-01-22T06:20:08Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="39806" started-at="2021-01-22T06:19:28Z" finished-at="2021-01-22T06:20:08Z">
+      <class name="com.qa.realerp.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.realerp.tests.HomePageTest@7f9a81e8]" name="setUp" is-config="true" duration-ms="15776" started-at="2021-01-22T06:19:28Z" finished-at="2021-01-22T06:19:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.realerp.tests.LoginPageTest@9629756]" name="setUp" is-config="true" duration-ms="6192" started-at="2021-01-22T06:19:44Z" finished-at="2021-01-22T06:19:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyPageTitleTest()[pri:1, instance:com.qa.realerp.tests.HomePageTest@7f9a81e8]" name="verifyPageTitleTest" duration-ms="10" started-at="2021-01-22T06:19:50Z" finished-at="2021-01-22T06:19:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitleTest -->
+        <test-method status="PASS" signature="verifyHRMLinkVisibilityTest()[pri:2, instance:com.qa.realerp.tests.HomePageTest@7f9a81e8]" name="verifyHRMLinkVisibilityTest" duration-ms="55" started-at="2021-01-22T06:19:51Z" finished-at="2021-01-22T06:19:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHRMLinkVisibilityTest -->
+        <test-method status="PASS" signature="verifyNavigationToHRMPageTest()[pri:3, instance:com.qa.realerp.tests.HomePageTest@7f9a81e8]" name="verifyNavigationToHRMPageTest" duration-ms="5811" started-at="2021-01-22T06:19:51Z" finished-at="2021-01-22T06:19:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationToHRMPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.realerp.tests.HomePageTest@7f9a81e8]" name="tearDown" is-config="true" duration-ms="673" started-at="2021-01-22T06:20:06Z" finished-at="2021-01-22T06:20:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.realerp.tests.LoginPageTest@9629756]" name="tearDown" is-config="true" duration-ms="635" started-at="2021-01-22T06:20:07Z" finished-at="2021-01-22T06:20:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.realerp.tests.HomePageTest -->
+      <class name="com.qa.realerp.tests.LoginPageTest">
+        <test-method status="PASS" signature="verifyPageTitleTest()[pri:1, instance:com.qa.realerp.tests.LoginPageTest@9629756]" name="verifyPageTitleTest" duration-ms="539" started-at="2021-01-22T06:19:50Z" finished-at="2021-01-22T06:19:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitleTest -->
+        <test-method status="PASS" signature="verifyForgotPasswordLinkTest()[pri:2, instance:com.qa.realerp.tests.LoginPageTest@9629756]" name="verifyForgotPasswordLinkTest" duration-ms="476" started-at="2021-01-22T06:19:50Z" depends-on-methods="com.qa.realerp.tests.LoginPageTest.verifyPageTitleTest" finished-at="2021-01-22T06:19:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPasswordLinkTest -->
+        <test-method status="PASS" signature="verifyValidLoginTest()[pri:4, instance:com.qa.realerp.tests.LoginPageTest@9629756]" name="verifyValidLoginTest" duration-ms="9597" started-at="2021-01-22T06:19:57Z" finished-at="2021-01-22T06:20:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLoginTest -->
+      </class> <!-- com.qa.realerp.tests.LoginPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
